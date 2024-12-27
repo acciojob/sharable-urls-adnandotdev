@@ -13,3 +13,4 @@ function updateURL() {
             urlElement.textContent = url + (params.toString() ? `?${params.toString()}` : "");
 
             return false;
+}
